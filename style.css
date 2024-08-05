@@ -3,4 +3,65 @@
 body {
     background-color: #f4d04e;
     font-family: "Figtree", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    text-align: left;
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 10px 10px black;
+}
+
+.content {
+    padding: 20px;
+}
+
+div div div img {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.topText {
+    background-color: #f4d04e;
+    padding: 6px 10px 6px 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 150%;
+    border-radius: 5px;
+}
+
+.mainTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.authorInfo span {
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: bolder;
+}
+
+.item img {
+    border-radius: 15px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: medium;
+    color: #6b6b6b;
+    line-height: 150%;
+}
+
+.secondText {
+    font-size: 14px;
+    font-weight: medium;
+    line-height: 150%;
 }
