@@ -42,6 +42,11 @@ div div div img {
     font-weight: bold;
 }
 
+.mainTitle:hover {
+    color:#f4d04e;
+    cursor: pointer;
+}
+
 .authorInfo span {
     vertical-align: middle;
     font-size: 14px;
@@ -65,3 +70,4 @@ p {
     font-weight: medium;
     line-height: 150%;
 }
+
